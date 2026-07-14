@@ -8,6 +8,13 @@
 
 using System;
 
-Console.WriteLine("TODO: implemente sua solucao aqui.");
+Console.WriteLine("Digite um número: ");
+int n = int.Parse(Console.ReadLine()!);
 
+int soma = 0;
+for (int i = 1; i <= n; i++)
+{
+    soma += i;
+}
 
+Console.WriteLine($"A soma de 1 até {n} é: {soma}");

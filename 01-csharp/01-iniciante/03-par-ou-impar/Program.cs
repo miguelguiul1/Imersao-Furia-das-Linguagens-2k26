@@ -8,6 +8,11 @@
 
 using System;
 
-Console.WriteLine("TODO: implemente sua solucao aqui.");
+Console.WriteLine("Digite um número inteiro: ");
+int n = int.Parse(Console.ReadLine()!);
 
+string ParOuImpar = n % 2 == 0
+                ? "PAR"
+                : "IMPAR";
 
+Console.WriteLine(ParOuImpar);

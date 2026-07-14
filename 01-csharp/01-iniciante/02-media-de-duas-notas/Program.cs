@@ -10,6 +10,13 @@ using System;
 
 
 
-Console.WriteLine("TODO: implemente sua solucao aqui.");
+Console.WriteLine("Digite sua primeira nota: ");
+int nota1 = int.Parse(Console.ReadLine()!);
 
+Console.WriteLine("Digite sua segunda nota: ");
+int nota2 = int.Parse(Console.ReadLine()!);
+
+double media = (nota1 + nota2) / 2;
+
+Console.WriteLine($"A média é: {media} ");
 

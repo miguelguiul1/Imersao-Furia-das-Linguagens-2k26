@@ -8,6 +8,12 @@
 
 using System;
 
-Console.WriteLine("TODO: implemente sua solucao aqui.");
+Console.WriteLine("Digite um número inteiro: ");
+int n = int.Parse(Console.ReadLine()!);
+
+for (int i = 1; i <= n; i++)
+{
+    Console.Write($"{i} ");
+}
 
 
